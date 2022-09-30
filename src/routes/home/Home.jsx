@@ -5,10 +5,10 @@ import Button from '../../components/Button'
 
 const Home = () => {
   return (
-    <div className='flex flex-col items-center justify-around p-7 bg-secondaryPurpleLight h-screen'>
+    <div className='flex flex-col items-center justify-around p-7 bg-secondaryPurpleLight h-screen font-sans'>
       <div className="flex flex-col items-center gap-4">
         <div className='relative'>
-          <h1 className="font-bold text-[36px] leading-[4.5rem] text-center text-primaryVeryDark">
+          <h1 className="font-bold text-[36px] leading-[4.5rem] text-center text-primaryVeryDark font-sans">
             Imagine if<br />
             had events.
           </h1>

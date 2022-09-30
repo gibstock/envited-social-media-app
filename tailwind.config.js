@@ -24,7 +24,11 @@ module.exports = {
       white: '#ffffff',
       mainBack: '#fbfaff'
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Open Sans', 'sans-serif']
+      },
+    },
   },
   plugins: [],
 }
