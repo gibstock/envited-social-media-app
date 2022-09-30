@@ -1,10 +1,9 @@
 import React from 'react'
-import { useNavigate, Link } from 'react-router-dom'
+import { useNavigate} from 'react-router-dom'
 import { useFormik } from 'formik'
 import * as Yup from 'yup'
 import FormInput from '../../components/FormInput'
 import Button from '../../components/Button'
-import { AiOutlineHome } from 'react-icons/ai'
 
 const Create = () => {
 
@@ -59,9 +58,6 @@ const Create = () => {
  
   return (
     <div className='flex flex-col items-center justify-around p-7 bg-secondaryPurpleLight'>
-      <Link to='/'>
-        <AiOutlineHome className='absolute left-5 top-5' size='28' />
-      </Link>
       <div className='relative'>
         <h1 className="font-bold text-[36px] leading-[4.5rem] text-center text-primaryVeryDark">
           Time to<br />

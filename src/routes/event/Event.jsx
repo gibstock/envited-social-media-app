@@ -14,7 +14,7 @@ const Event = () => {
 
   useEffect(() => {
     reward()
-  }, [])
+  }, [reward])
 
   return (
     <div className='flex flex-col justify-center items-center h-screen w-full box-border bg-mainBack md:px-40 lg:px-60 lg:flex-row-reverse lg:justify-start lg:gap-16'>
