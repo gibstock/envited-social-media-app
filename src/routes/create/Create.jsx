@@ -59,11 +59,11 @@ const Create = () => {
   return (
     <div className='flex flex-col items-center justify-around p-7 bg-secondaryPurpleLight'>
       <div className='relative'>
-        <h1 className="font-bold text-[36px] leading-[4.5rem] text-center text-primaryVeryDark">
+        <h1 className="font-bold text-[36px] leading-[4.5rem] text-center text-primaryVeryDark md:text-7xl md:leading-[9rem]">
           Time to<br />
           your event!
         </h1>
-        <h1 className='absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primaryMid to-primaryLight text-[36px] leading-[41px] text-center'>CREATE</h1>
+        <h1 className='absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primaryMid to-primaryLight text-[36px] leading-[41px] text-center md:text-7xl'>CREATE</h1>
       </div>
       <form className='flex flex-col' onSubmit={formik.handleSubmit}>
         <FormInput 
@@ -161,7 +161,7 @@ const Create = () => {
           placeholder='Enter the Postcode'
         />
         <div className="button-group flex flex-row justify-center items-center">
-          <Button type={'submit'} >Let's Go</Button>
+          <Button width='w-full' type={'submit'} >Let's Go</Button>
         </div>
       </form>
     </div>

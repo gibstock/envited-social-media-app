@@ -2,7 +2,7 @@ const FormInput = ({ label, type, onChange, name, value, placeholder }) => {
   return (
     <div className="relative">
       {label && (
-        <label className="text-[#3B3E44] text-base pointer-events-none  transition-all duration-300">
+        <label className="text-[#3B3E44] text-base pointer-events-none  transition-all duration-300 md:text-lg">
           {label}
         </label>
       )}
