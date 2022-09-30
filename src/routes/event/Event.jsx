@@ -18,10 +18,10 @@ const Event = () => {
 
   return (
     <div className='flex flex-col justify-center items-center h-screen w-full box-border bg-mainBack md:px-40 lg:px-60 lg:flex-row-reverse lg:justify-start lg:gap-16'>
-      <div className="event-image flex flex-row justify-center items-center bg-mainBack w-full md:max-w-xl md:mt-20 lg:flex-col lg:justify-start lg:h-full lg:max-w-lg lg:mt-48">
+      <div className="event-image flex flex-row justify-center items-center bg-mainBack w-full md:max-w-xl md:mt-20 lg:flex-col lg:justify-start lg:max-w-lg ">
         <img src={EventImage} alt="" />
       </div>
-      <div className="info-wrapper flex flex-col justify-start items-center gap-6 w-full h-full p-5 grow md:px-0 md:py-5 lg:justify-start lg:mt-48 lg:p-0">
+      <div className="info-wrapper flex flex-col justify-start items-center gap-6 w-full p-5 grow md:px-0 md:py-5 lg:justify-start lg:p-0">
         <div className="info-header self-start">
           <h1 className='font-bold text-3xl text-primaryVeryDark md:text-5xl'>{eventName}</h1>
           <p className='text-sm text-midGrey md:text-lg'>Hosted by <span>{hostName}</span></p>

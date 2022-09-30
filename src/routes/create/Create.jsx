@@ -57,7 +57,7 @@ const Create = () => {
 
  
   return (
-    <div className='flex flex-col items-center justify-around p-7 bg-secondaryPurpleLight'>
+    <div className='flex flex-col items-center justify-around p-7 bg-secondaryPurpleLight lg:flex-row-reverse lg:relative'>
       <div className='relative'>
         <h1 className="font-bold text-[36px] leading-[4.5rem] text-center text-primaryVeryDark md:text-7xl md:leading-[9rem]">
           Time to<br />
